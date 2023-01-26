@@ -1,5 +1,9 @@
-* {
+*{
   box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -7,29 +11,67 @@ body {
   margin: 0;
 }
 
-.section {
-  padding: 160px 0;
+.section{
+  /* display: inline-block; */
+  max-width: 1600px;
+  padding: 10px 0;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1600px;
+.container{
+margin: 0 auto;
+width: 555px;
+height: 296px;
+background-image: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+margin: 160px 30px 46px;
 }
+
 
 .row{
-  /* display: inline-block; */
-  /* columns: calc(100% / 3); */
-}
 
+}
 
 .col{
-  display: inline-block;
-  width: calc(100% / 3 - 3px);
-  padding: 0px;
+margin-left: 35px;
+display: inline-block;
 }
 
-.picture{
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+.content{
+
+}
+
+.off{
+  font-weight: 500;
+  font-size: 16px;
+  color: #F4F9FC;
+  padding-top: 75px;
+}
+
+.product{
+  font-weight: 600;
+  font-size: 31px;
+  color: #F4F9FC;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  max-width: 270px;
+}
+
+.show-nov{
+  font-weight: 500;
+  font-size: 14px;
+  color: #F4F9FC;
+}
+
+.dron{
+  display: inline-block;
+  position: absolute;
+  max-width: 275px;
+  max-height: 231px;
+  rotate: 28.01deg;
+}
+
+.camera{
+  position: absolute;
+  max-width: 238.12px;
+  max-height: 151.26px;
+  rotate: -15deg;
 }
